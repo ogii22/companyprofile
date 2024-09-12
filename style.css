@@ -1,0 +1,439 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* Hero Section */
+/* Reset beberapa default styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling untuk hero section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('https://via.placeholder.com/1920x1080'); /* Ganti dengan URL gambar latar belakang Anda */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5); /* Background semi-transparan untuk teks agar lebih terlihat */
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Section Titles */
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* About Section */
+.about {
+  padding: 4rem 0;
+}
+
+/* Services Section */
+.services {
+  padding: 4rem 0;
+}
+
+.service-box img {
+  margin-bottom: 1rem;
+}
+
+.service-box h5 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.service-box p {
+  font-size: 1rem;
+}
+/* Reset beberapa default styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling untuk bagian testimoni */
+.testimonials {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.testimonial-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.testimonial-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.testimonial-photo {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.testimonial-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.testimonial-card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+
+/* Process Section */
+.process-section {
+  padding: 4rem 0;
+}
+
+.process-step {
+  padding: 2rem;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.process-step:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Technology Section */
+.technology-section {
+  padding: 4rem 0;
+}
+
+.technology-item {
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.technology-item h5 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* Partner Section */
+.partners-section {
+  padding: 4rem 0;
+}
+
+.partner-logo img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+#partners {
+  background-color: #2d2a2a; /* Warna latar belakang */
+  color: #ffffff; /* Warna teks default */
+  padding: 50px 0;
+}
+
+/* Gaya untuk judul dan deskripsi teks */
+#partners h2 {
+  color: #f1c40f; /* Warna teks judul */
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#partners p {
+  color: #dddddd; /* Warna teks deskripsi */
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 50px;
+}
+
+/* Style untuk logo mitra */
+.partner-logo img {
+  width: 100%;
+  max-width: 100px; /* Ukuran maksimal logo */
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.partner-logo p {
+  color: #ffffff; /* Warna teks nama mitra */
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* Style untuk responsif */
+@media (max-width: 768px) {
+  .partner-logo img {
+    max-width: 80px; /* Ukuran logo yang lebih kecil untuk layar kecil */
+  }
+
+  .partner-logo p {
+    font-size: 0.9rem; /* Ukuran teks lebih kecil untuk layar kecil */
+  }
+}
+
+/* Team Section */
+.team {
+  padding: 4rem 0;
+}
+
+.team-member img {
+  width: 250px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.team-member h5 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* Style untuk section portfolio */
+#portofolio {
+  padding: 50px 0;
+  background-color: #f8f9fa; /* Latar belakang portofolio */
+}
+
+#portofolio h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* Gaya untuk container portofolio */
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.portfolio-item {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  max-width: 300px;
+}
+
+.portfolio-image {
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-info {
+  padding: 20px;
+}
+
+.portfolio-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #007bff; /* Warna teks judul */
+}
+
+.portfolio-info p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 768px) {
+  .portfolio-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+#portofolio {
+  background-color: #8e1313; /* Warna latar belakang */
+  color: #0e0202; /* Warna teks default di seluruh section */
+  padding: 50px 0;
+}
+
+#portofolio h2 {
+  color: #f1c40f; /* Warna teks untuk judul utama (Portofolio Kami) */
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.portfolio-item {
+  background-color: #ffffff; /* Warna latar belakang item */
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #333; /* Warna teks item */
+}
+
+.portfolio-image {
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-info h3 {
+  font-size: 1.5rem;
+  color: #007bff; /* Warna teks judul dalam item portofolio */
+  margin-top: 15px;
+}
+
+.portfolio-info p {
+  font-size: 1rem;
+  color: #555; /* Warna teks deskripsi dalam item portofolio */
+  padding: 10px;
+}
+
+/* Style untuk teks di hover */
+.portfolio-item:hover h3 {
+  color: #f39c12; /* Warna teks judul saat hover */
+}
+
+.portfolio-item:hover p {
+  color: #e67e22; /* Warna teks deskripsi saat hover */
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 768px) {
+  .portfolio-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+/* Contact Section */
+.contact {
+  padding: 4rem 0;
+}
+
+.contact label {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#contact {
+  background-color: #8e1313; /* Warna latar belakang */
+  color: #ffffff; /* Warna font default untuk seluruh teks dalam section */
+}
+
+#contact h2 {
+  color: #ffffff; /* Warna teks untuk judul */
+}
+
+#contact label {
+  color: #f1c40f; /* Warna teks untuk label form */
+}
+
+#contact input,
+#contact textarea {
+  color: #333; /* Warna teks untuk input dan textarea */
+  background-color: #fff; /* Latar belakang input */
+}
+
+#contact input::placeholder,
+#contact textarea::placeholder {
+  color: #888; /* Warna placeholder di input dan textarea */
+}
+
+.btn-primary {
+  background-color: #f39c12; /* Warna latar belakang tombol */
+  border-color: #f39c12;
+  color: #fff; /* Warna teks tombol */
+}
+
+.btn-primary:hover {
+  background-color: #e67e22; /* Warna tombol saat hover */
+  border-color: #e67e22;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem 0;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1rem;
+}
